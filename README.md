@@ -18,3 +18,12 @@ This project explores bikeshare data for 3 major US cities: Chicago, New York, a
 ### Credits
 - Course provided by Udacity Programming for Data Science with Python 
 - Datasets provided by Motivate
+
+### How to Run
+
+To run the project:
+1. Open a terminal window
+2. Navigate to the project folder
+3. Run the command below:
+
+python bikeshare.py
