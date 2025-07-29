@@ -10,8 +10,11 @@ Bikeshare Data Exploration
 This project explores bikeshare data for 3 major US cities: Chicago, New York, and Washington. It allows users to filter the data by city, month, and the day of week to see usage statistics. 
 
 ### Files used
-Include the files used
+- bikeshare.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+- Course provided by Udacity Programming for Data Science with Python 
+- Datasets provided by Motivate
