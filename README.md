@@ -4,10 +4,10 @@
 July 28,2025
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data Exploration
 
 ### Description
-Describe what your project is about and what it does
+This project explores bikeshare data for 3 major US cities: Chicago, New York, and Washington. It allows users to filter the data by city, month, and the day of week to see usage statistics. 
 
 ### Files used
 Include the files used
