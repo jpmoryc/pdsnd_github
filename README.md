@@ -27,3 +27,9 @@ To run the project:
 3. Run the command below:
 
 python bikeshare.py
+
+
+### Future Enhancements
+- Add graphical visualizations to better represent bikeshare insights
+- Include additional cities and datasets
+- Build an MVP web user interface for selecting filters and displaying values
