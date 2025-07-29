@@ -45,7 +45,15 @@ def get_filters():
 
 def load_data(city, month, day):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads bikeshare data for the specified city and filters by month and day if applicable. 
+
+    Parameters: 
+        city (str): name of the city to analyze
+        month (str): name of the month filter by, or "all" to apply no month filter
+        day (str): name of the day of week to filter by, or "all" to apply no day filter
+
+    Returns: 
+        df(DataFrame): City data filtered by month and day
     """
     df = pd.read_csv(CITY_DATA[city])
 
@@ -169,8 +177,8 @@ def display_raw_data(df):
     """Displays 5 rows of raw data upon request from user."""
     index = 0
     while True:
-        raw_input = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
-        if raw_input != 'yes':
+        show_data = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
+        if show_data != 'yes':
             break
         print(df.iloc[index:index+5])
         index += 5
