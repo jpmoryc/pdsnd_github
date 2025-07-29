@@ -169,8 +169,8 @@ def display_raw_data(df):
     """Displays 5 rows of raw data upon request from user."""
     index = 0
     while True:
-        raw_input = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
-        if raw_input != 'yes':
+        show_data = input("Would you like to see 5 lines of raw data? Enter yes or no: ").lower()
+        if show_data != 'yes':
             break
         print(df.iloc[index:index+5])
         index += 5
